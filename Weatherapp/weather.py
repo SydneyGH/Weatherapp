@@ -1,5 +1,3 @@
-# This will be a weather app
-
 from tkinter import *
 import requests
 import json
@@ -9,7 +7,7 @@ mainWindow = Tk()
 mainWindow.title('Weather App')
 mainWindow.geometry('300x300')
 
-key = '1579ce9e276a3c66ae14936eb49d756e'
+key = {'YOUR API KEY HERE}
 
 # This will convert Kelvin to Farenheit
 def kelvintoF():
