@@ -4,6 +4,6 @@ This weather app will tell you about the current weather in your city. This is d
 
 For this app I used three modules ‘Tkinter’, ‘requests’, and ‘json’. The tkinter module was used to create the window to display the given weather information, there is a ‘Search’ button which is used to grab the information about weather in the area. The requests module is used to grab the information from the website ‘openweathermap.org’, which is then converted in to JSON. The JSON module is used to pull the information and turn it into a dictionary, this will then be printed to the user.
 
-An example of the code is below
+An example of the code is below:
 
 ![](image/WeatherAppGIF.gif)
